@@ -29,7 +29,7 @@ export default function RootLayout({
         <Link href="https://vndb.org/v30837" target="_blank">
           <Image
             alt="banner_image"
-            src="./banner_1.png"
+            src="/banner_1.png"
             width={1000}
             height={350}
             className="mt-4 hover:cursor-pointer"
