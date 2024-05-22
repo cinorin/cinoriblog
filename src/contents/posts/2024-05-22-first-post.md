@@ -6,7 +6,7 @@ thumbnail: "./images/first-post/mao.jpg"
 draft: false
 tags: ["random", "tech"]
 ---
-![thumbnail_images](./images/first-post/mao.jpg)
+![thumbnail_images](/images/first-post/mao.jpg)
 
 So erm introducing myself would be so akward as my first blogpost and going straight uploading a rambles about something would also be very weird in my opinion. so instead I will use this opportunity to explain a little bit about how I came up with this website, though most of the backstories is already written in [About](../about) page but let me have this excuse.
 
