@@ -6,7 +6,7 @@ const IndexPage = () => {
   const postPreviews = posts.map((x) => (
     <List key={x.slug} {...x} />
   ));
-  return <div>{postPreviews}</div>;
+  return <div className="bg-darker p-5">{postPreviews}</div>;
 };
 
 export default IndexPage;

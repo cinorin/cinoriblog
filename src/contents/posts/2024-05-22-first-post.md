@@ -2,7 +2,7 @@
 title: "first post"
 subtitle: "fine i will write a first post and not jumping into random lore dumping"
 date: "2024-05-21"
-thumbnail: "/images/mao.jpg"
+thumbnail: "/images/first-post/mao.jpg"
 draft: false
 tags: ["random", "tech"]
 ---

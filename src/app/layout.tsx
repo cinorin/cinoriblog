@@ -16,7 +16,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
+
   const header = (
     <header className=" border-b-2 mb-8">
       <div className="my-5">
