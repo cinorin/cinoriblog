@@ -2,11 +2,11 @@
 title: "first post"
 subtitle: "fine i will write a first post and not jumping into random lore dumping"
 date: "2024-05-21"
-thumbnail: "/images/first-post/mao.jpg"
+thumbnail: "./images/first-post/mao.jpg"
 draft: false
 tags: ["random", "tech"]
 ---
-![images/maomao](/images/first-post/mao.jpg)
+![images/maomao](./images/first-post/mao.jpg)
 
 So erm introducing myself would be so akward as my first blogpost and going straight uploading a rambles about something would also be very weird in my opinion. so instead I will use this opportunity to explain a little bit about how I came up with this website, though most of the backstories is already written in [About](../about) page but let me have this excuse.
 

@@ -16,7 +16,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   const header = (
     <header className=" border-b-2 mb-8">
       <div className="my-5">
@@ -56,8 +55,9 @@ export default function RootLayout({
         <Link href="https://vndb.org/v6700" target="_blank">
           <div className="font-extralight text-xs mt-2 hover:underline hover:text-cyan-200 text-center">
             <p className="italic">
-              &quot;I&apos;ve got tons of free time, but not that much. I&apos;ve got anime to
-              watch, not to mention online auctions I&apos;ve gotta keep my eye on!&quot;
+              &quot;I&apos;ve got tons of free time, but not that much.
+              I&apos;ve got anime to watch, not to mention online auctions
+              I&apos;ve gotta keep my eye on!&quot;
             </p>
             <p>- すぴぱら (minori)</p>
           </div>
@@ -65,10 +65,12 @@ export default function RootLayout({
       </div>
     </footer>
   );
-  
+
   return (
     <html lang="en">
-      <head />
+      <head>
+        <link rel="icon" href="./img/favicon.ico" sizes="any" />
+      </head>
       <body className={inter.className}>
         <div className="mx-auto max-w-3xl px-3">
           {header}
