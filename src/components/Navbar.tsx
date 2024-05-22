@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link href="https://vndb.org/v30837" target="_blank">
           <Image
             alt="banner_image"
-            src="./banner_1.png" //Change this before deployment
+            src="https://corona.s-ul.eu/v5DOLSBv.png"
             width={1000}
             height={350}
             className="mt-4 hover:cursor-pointer"

@@ -3,8 +3,6 @@ import PostPreview from "@/components/PostPreview";
 
 const HomePage = () => {
   const posts = getPostMetadata();
-
-
   //TODO - add infinite scroll instead of dynamic pagination using params
 
   return (
