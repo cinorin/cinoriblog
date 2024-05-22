@@ -1,4 +1,3 @@
-'use server'
 import { getPostMetadata } from "@/utilities/metadata";
 import PostPreview from "@/components/PostPreview";
 
