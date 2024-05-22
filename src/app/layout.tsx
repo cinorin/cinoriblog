@@ -16,6 +16,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   const header = (
     <header className=" border-b-2 mb-8">
       <div className="my-5">
@@ -27,8 +28,8 @@ export default function RootLayout({
         </Link>
         <Link href="https://vndb.org/v30837" target="_blank">
           <Image
-            alt="banner image"
-            src="/banner_1.png"
+            alt="banner_image"
+            src="./banner_1.png"
             width={1000}
             height={350}
             className="mt-4 hover:cursor-pointer"

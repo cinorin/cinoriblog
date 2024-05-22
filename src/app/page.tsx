@@ -8,14 +8,10 @@ const HomePage = ({
   searchParams: { [key: string]: string | string[] | undefined };
 }) => {
   const posts = getPostMetadata();
-  // const postPreviews = postMetadata.map((x) => (
-  //   <PostPreview key={x.slug} {...x} />
-  // ));
 
   const page = searchParams["page"] ?? "1";
   const per_page = searchParams["per_page"] ?? "5";
 
-  // mocked, skipped and limited in the real app
   const start = (Number(page) - 1) * Number(per_page); // 0, 5, 10 ...
   const end = start + Number(per_page); // 5, 10, 15 ...
 
