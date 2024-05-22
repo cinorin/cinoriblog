@@ -2,6 +2,8 @@ import { getPostMetadata } from "@/utilities/metadata";
 import PostPreview from "@/components/PostPreview";
 import PaginationControls from "@/components/PaginationControls";
 
+export const dynamic = 'force-dynamic';
+
 const HomePage = ({
   searchParams,
 }: {
