@@ -4,33 +4,39 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <header className=" border-b-2 mb-8">
-      <div className="my-5">
-        <Link href="/">
-          <div className="hover:cursor-pointer">
-            <h1 className="font-bold text-3xl">cinori blog</h1>
-            <p className="text-sm font-light">最も尊い自己犠牲精神を発露して</p>
-          </div>
-        </Link>
-        <Link href="https://vndb.org/v30837" target="_blank">
-          <Image
-            alt="banner_image"
-            src="https://corona.s-ul.eu/v5DOLSBv.png"
-            width={1000}
-            height={350}
-            className="mt-4 hover:cursor-pointer"
-          />
-        </Link>
-      </div>
-      <div className="mx-auto w-full max-w-md text-center mb-5">
-        <Link href="/" className="mx-1 hover:bg-darker  p-3 ">
-          Home
-        </Link>
-        <Link href="/about" className="mx-2 hover:bg-darker  p-3">
-          About
-        </Link>
-        <Link href="/lists" className="mx-2 hover:bg-darker  p-3">
-          Index
-        </Link>
+      {/* <div className="my-5">
+        <Link href="https://vndb.org/c3930" target="_blank"></Link>
+      </div> */}
+      <div className="flex flex-row justify-between mb-5 mt-2">
+        <div className="flex flex-row justify-between items-center">
+          <Link href="/" className="hover:cursor-pointer hover:bg-darker pr-3">
+            <div className="flex flex-row items-center">
+              {/* <div className="p-2">
+                <Image
+                  alt="banner_image"
+                  src="/favicon.ico"
+                  width={50}
+                  height={50}
+                  className=""
+                />
+              </div> */}
+              <div className="">
+                <p className="font-bold text-3xl text-center">cinori</p>
+              </div>
+            </div>
+          </Link>
+        </div>
+        <div className="flex flex-row justify-between items-center">
+          <Link href="/about" className="mx-2 hover:bg-darker p-3">
+            about
+          </Link>
+          <Link href="/lists" className="mx-2 hover:bg-darker p-3">
+            index
+          </Link>
+          <Link href="/api/feed.rss" className="mx-2 hover:bg-darker p-3">
+            rss
+          </Link>
+        </div>
       </div>
     </header>
   );

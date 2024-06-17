@@ -2,6 +2,7 @@ import Link from "next/link";
 import fs from "fs";
 import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
+import Image from "next/image";
 
 const getAboutPage = () => {
   const folder = "src/contents/about/";
@@ -20,17 +21,9 @@ const AboutPage = () => {
         <h1 className="text-center font-bold text-3xl mt-5 mb-10">
           {about.data.title}
         </h1>
-        <article className="prose dark:prose-invert sm:prose-sm md:prose-base lg:prose-lg">
+        <article className="prose dark:prose-invert mx-auto">
           <Markdown>{about.content}</Markdown>
         </article>
-
-        <br />
-        <Link
-          href="https://twitter.com/cinorinaur"
-          className="underline text-blue-300 text-lg"
-        >
-          Xitter
-        </Link>
       </div>
     </div>
   );

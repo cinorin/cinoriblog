@@ -7,3 +7,8 @@ export interface PostMetadata {
   draft: boolean;
   tags: string[];
 }
+
+export type Props = {
+  params: { slug: string }
+  searchParams: { [key: string]: string | string[] | undefined }
+}

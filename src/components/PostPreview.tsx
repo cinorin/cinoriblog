@@ -6,23 +6,24 @@ import { formatDate } from "@/utilities/formatDate";
 const PostPreview = (props: PostMetadata) => {
   const date = formatDate(props.date)
   return (
-    <div className="bg-darker my-3 p-3">
-      <p className="text-xs font-extralight">{date}</p>
+    <div className="my-5 py-2">
+      <p className="text-sm">{date}</p>
       <Link href={`/posts/${props.slug}`}>
-        <h2 className="font-bold text-3xl my-2 hover:underline hover:text-cyan-400">
+        <h2 className="my-2 font-semibold text-xl hover:underline hover:text-cyan-400">
           {props.title}
         </h2>
       </Link>
+        
       {props.thumbnail !== undefined && (
         <Image
-          alt="thumbnail_image"
-          src={props.thumbnail}
-          width={1000}
-          height={350}
-          className="my-4"
+        alt="thumbnail_image"
+        src={props.thumbnail}
+        width={1080}
+        height={300}
+        className="my-4"
         />
       )}
-      <p className="font-light text-sm">{props.subtitle}</p>
+      {/* <p className="">{props.subtitle}</p> */}
     </div>
   );
 };

@@ -1,15 +1,23 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+export const inter = Inter({ subsets: ["latin"] });
+
+export const noto = Noto_Sans_JP({
+  subsets: ['latin']
+})
 
 export const metadata: Metadata = {
   title: "cinori blog",
-  description: "what's this",
+  description: "lorem ipsum",
+  openGraph: {
+    images: '/marusiru.png'
+  }
 };
+
 
 export default function RootLayout({
   children,
@@ -18,11 +26,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="./favicon.ico" sizes="any" />
-      </head>
-      <body className={inter.className}>
-        <div className="mx-auto max-w-3xl px-3">
+      <body className={noto.className}>
+        <div className="mx-auto px-3 max-w-2xl">
           <Navbar />
           {children}
           <Footer />

@@ -8,10 +8,10 @@ const List = (props: PostMetadata) => {
     <Link href={`/posts/${props.slug}`}>
       <div
         key={props.slug}
-        className="text-lg flex justify-between hover:cursor-pointer hover:underline hover:text-cyan-400"
+        className="lg:text-lg md:text-base flex justify-between hover:cursor-pointer hover:underline hover:text-cyan-400"
       >
         <h2 className="">{props.title}</h2>
-        <div>{date}</div>
+        <div className="flex-none">{date}</div>
       </div>
     </Link>
   );
