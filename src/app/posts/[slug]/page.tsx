@@ -5,6 +5,7 @@ import { getPostMetadata } from "@/utilities/metadata";
 import { formatDate } from "@/utilities/formatDate";
 import { Metadata, ResolvingMetadata } from "next";
 import { Props } from "@/utilities/interface";
+import { log } from "console";
 
 const getPostContent = (slug: string) => {
   const folder = "src/contents/posts/";
@@ -25,23 +26,34 @@ export async function generateMetadata(
   { params, searchParams }: Props,
   parent: ResolvingMetadata
 ): Promise<Metadata> {
-  console.log(params, searchParams, "<<< From Metadata");
+  // console.log(params, searchParams, "<<< From Metadata");
 
   const allMetadatas = getPostMetadata()
   const [metadata] = allMetadatas.filter(x => x.slug === params.slug)
-  console.log(metadata, "perpost metadata");
+  // console.log(metadata, "perpost metadata");
   
 
   const id = params?.slug ? " - " + params?.slug : "";
   const post = getPostContent(params?.slug);
 
+  const parentMetadata = await parent;
+  const metadataBase = parentMetadata.metadataBase;
 
+  const baseImageUrl = metadataBase ? new URL(metadataBase) : new URL("https://cinorin.github.io/cinoriblog/");
+  const thumbnailUrl = new URL(metadata.thumbnail, baseImageUrl).href;
+  // console.log(baseImageUrl, thumbnailUrl, "<<<<");
+  
   return {
-    title: `${id.slice(13).replaceAll("-", " ")}`,
+    title: metadata.title,
     description: post.data.subtitle,
     openGraph: {
-      images: metadata.thumbnail
-    }
+      images: [
+        {
+          url: thumbnailUrl,
+          alt: metadata.title,
+        },
+      ],
+    },
   };
 }
 

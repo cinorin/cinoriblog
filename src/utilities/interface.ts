@@ -8,7 +8,14 @@ export interface PostMetadata {
   tags: string[];
 }
 
+// export type Props = {
+//   params: { slug: string }
+//   searchParams: { [key: string]: string | string[] | undefined }
+// }
+
 export type Props = {
-  params: { slug: string }
-  searchParams: { [key: string]: string | string[] | undefined }
-}
+  params: {
+    slug: string;
+  };
+  searchParams: URLSearchParams;
+};
