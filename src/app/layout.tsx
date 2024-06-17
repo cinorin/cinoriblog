@@ -4,7 +4,6 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-// Import the font
 const NotoSans = Noto_Sans_JP({
   subsets: ['latin']
 });
@@ -22,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href={`${metadata.metadataBase}/favicon.ico`} />
+      </head>
       <body className={NotoSans.className}>
         <div className="mx-auto px-3 max-w-2xl">
           <Navbar />
