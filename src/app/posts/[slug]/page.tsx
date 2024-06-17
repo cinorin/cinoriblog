@@ -39,10 +39,9 @@ export async function generateMetadata(
   const parentMetadata = await parent;
   const metadataBase = parentMetadata.metadataBase;
 
-  const baseImageUrl = metadataBase ? new URL(metadataBase) : new URL("https://cinorin.github.io/cinoriblog/");
-  const thumbnailUrl = new URL(metadata.thumbnail, baseImageUrl).href;
-  console.log(thumbnailUrl, "<<<<");
-  
+  const baseImageUrl = metadataBase ? new URL(metadataBase) : new URL("https://cinorin.github.io/cinoriblog");
+  const thumbnailUrl = new URL(`/cinoriblog${metadata.thumbnail}`, baseImageUrl.href).href
+
   return {
     title: metadata.title,
     description: post.data.subtitle,
