@@ -2,6 +2,7 @@ import { PostMetadata } from "@/utilities/interface";
 import Link from "next/link";
 import Image from "next/image";
 import { formatDate } from "@/utilities/formatDate";
+import { metadata } from "@/app/layout";
 
 const PostPreview = (props: PostMetadata) => {
   const date = formatDate(props.date)
@@ -17,7 +18,7 @@ const PostPreview = (props: PostMetadata) => {
       {props.thumbnail !== undefined && (
         <Image
         alt="thumbnail_image"
-        src={props.thumbnail}
+        src={"https://cinorin.github.io/cinoriblog" + props.thumbnail}
         width={1080}
         height={300}
         className="my-4"
