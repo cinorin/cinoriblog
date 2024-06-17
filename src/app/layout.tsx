@@ -13,11 +13,16 @@ export const metadata: Metadata = {
   description: "wow cool description",
   metadataBase: new URL("https://cinorin.github.io/cinoriblog/"),
   openGraph: {
-    images: 'https://cinorin.github.io/cinoriblog' + '/favicon.ico',
-  }
+    images: [
+      {
+        url: 'https://cinorin.github.io/cinoriblog' + '/favicon.ico',
+        alt: 'favicon.ico',
+      },
+    ],
+  },
 };
 
-console.log(metadata.openGraph?.images, '<<<<<<<');
+// console.log(metadata.openGraph?.images, '<<<<<<<');
 
 
 export default function RootLayout({
