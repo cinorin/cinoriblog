@@ -9,7 +9,7 @@ const Navbar = () => {
       </div> */}
       <div className="flex flex-row justify-between mb-5 mt-2">
         <div className="flex flex-row justify-between items-center">
-          <Link href="/" className="hover:cursor-pointer hover:bg-darker pr-3">
+          <Link href="/" className="hover:cursor-pointer pr-3">
             <div className="flex flex-row items-center">
               {/* <div className="p-2">
                 <Image
@@ -21,7 +21,7 @@ const Navbar = () => {
                 />
               </div> */}
               <div className="">
-                <p className="font-bold text-3xl text-center">cinori</p>
+                <p className="font-bold text-3xl text-center hover:text-blue-200">cinori</p>
               </div>
             </div>
           </Link>

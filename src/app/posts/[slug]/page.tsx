@@ -69,7 +69,7 @@ const PostPage = (props: any) => {
         {post.data.title}
       </h1>
       <p className="mt-1 text-sm">{date}</p>
-      <article className="prose dark:prose-invert sm:prose-sm md:prose-base lg:prose-lg">
+      <article className="prose dark:prose-invert sm:prose-sm md:prose-base lg:prose-lg mx-auto">
         <Markdown>{post.content}</Markdown>
       </article>
     </div>
