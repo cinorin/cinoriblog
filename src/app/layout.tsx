@@ -12,9 +12,10 @@ export const metadata: Metadata = {
   title: "cinori blog",
   description: "wow cool description",
   metadataBase: new URL("https://cinorin.github.io/cinoriblog/"),
-  applicationName : "cinori",
+  applicationName : "cinori blog",
+  authors: { url: "https://github.com/cinorin", name: "cinori"},
   openGraph: {
-    images: 'https://cinorin.github.io/cinoriblog' + '/favicon.ico'
+    images: 'https://cinorin.github.io/cinoriblog/test/wakaru.jpg'
   },
 };
 
