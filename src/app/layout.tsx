@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export const inter = Inter({ subsets: ["latin"] });
+// export const inter = Inter({ subsets: ["latin"] });
 
 export const noto = Noto_Sans_JP({
   subsets: ['latin']
