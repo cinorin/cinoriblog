@@ -11,7 +11,8 @@ const NotoSans = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   title: "cinori blog",
-  description: "wow cool description"
+  description: "wow cool description",
+  metadataBase: new URL("https://cinorin.github.io/cinoriblog/"),
 };
 
 export default function RootLayout({
