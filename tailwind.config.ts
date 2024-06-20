@@ -18,6 +18,9 @@ const config: Config = {
         dark: "#151515",
         darker: "#202022",
       },
+      height: {
+        '600px': '600px',
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],

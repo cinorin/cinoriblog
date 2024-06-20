@@ -10,12 +10,12 @@ const NotoSans = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   title: "cinori blog",
-  description: "wow cool description",
+  description: "wow what a cool description",
   metadataBase: new URL("https://cinorin.github.io/cinoriblog/"),
   applicationName : "cinori blog",
   authors: { url: "https://github.com/cinorin", name: "cinori"},
   openGraph: {
-    images: 'https://cinorin.github.io/cinoriblog/test/wakaru.jpg'
+    images: 'https://cinorin.github.io/cinoriblog/favico.ico'
   },
 };
 

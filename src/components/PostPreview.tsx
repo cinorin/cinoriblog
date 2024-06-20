@@ -5,7 +5,7 @@ import { formatDate } from "@/utilities/formatDate";
 import { metadata } from "@/app/layout";
 
 const PostPreview = (props: PostMetadata) => {
-  const date = formatDate(props.date)
+  const date = formatDate(props.date);
   return (
     <div className="mt-10">
       <p className="text-sm text-slate-400">{date}</p>
@@ -14,15 +14,19 @@ const PostPreview = (props: PostMetadata) => {
           {props.title}
         </h2>
       </Link>
-        
+
       {props.thumbnail !== undefined && (
-        <Image
-        alt="thumbnail_image"
-        src={"https://cinorin.github.io/cinoriblog" + props.thumbnail}
-        width={1080}
-        height={300}
-        className=""
-        />
+        <div className="h-[400px] w-full relative">
+          <Image
+            alt="thumbnail_image"
+            src={"https://cinorin.github.io/cinoriblog/" + props.thumbnail}
+            // width={1080}
+            // height={900}
+            className=""
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
       )}
       {/* <p className="">{props.subtitle}</p> */}
     </div>
