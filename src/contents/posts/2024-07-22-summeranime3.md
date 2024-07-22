@@ -10,7 +10,7 @@ Welcome to summer 2024. Honestly I don't really watch any anime PVs for this sea
 
 <center>
 ![](https://cinorin.github.io/cinoriblog/2024summer1/1.png)
-<em>Rin Nanakura from Giji Harem</em></center>
+<em>Rin Nanakura from Giji Harem eps 1</em></center>
 
 
 ## some solid watch
@@ -46,7 +46,7 @@ The Fable & Karasu wa Aruji Erabanai : Mostly still have the same impression fro
 
 <center>
 ![](https://cinorin.github.io/cinoriblog/2024summer1/2.png)
-<em>Copy pasta wangy wangy masuk anime (ada indonesia coy) - Vtuber Densetsu</em></center>
+<em>Copy pasta wangy wangy masuk anime (ada indonesia coy) - Vtuber Densetsu eps 2</em></center>
 
 ## I can see dropping halfway
 
@@ -63,7 +63,7 @@ Dungeon no Naka no Hito 1-2 : Dungeon this dungeon that. Though maintaining a wh
 
 <center>
 ![](https://cinorin.github.io/cinoriblog/2024summer1/3.png)
-<em>Mikarin from 2.5 Jigen no Ririsa</em></center>
+<em>Mikarin from 2.5 Jigen no Ririsa eps 2</em></center>
 
 ## dropped
 
@@ -105,8 +105,8 @@ Koi wa Futago - eps 1 : I like love triangle drama in general but this time it's
 Soushimin Series - eps 2 : If you want to success you will not make another Facebook or Instagram, you'll make something new if you wanted to achieve success. A second time wouldnt work, that's just the ground rule. Hyouka works because its the very first of kind, second time wouldn't work.
 
 <center>
-![](https://cinorin.github.io/cinoriblog/2024summer1/4.png)
-<em>"What are you, a menhera girlfriend!?!?" - Shikanoko Noko Koshitantan</em></center>
+![](https://cinorin.github.io/cinoriblog/2024summer1/5.png)
+<em>Akane Kurokawa from Oshi no Ko S2 eps 3 (mana pacar Akane gw ya allah)</em></center>
 
 ## Anisong
 Simply some of my current favorite anisong from this season :
@@ -148,5 +148,5 @@ Other songs that I kinda like :
 And that's should be fine to wrap the first 3 weeks of this season. I'm thinking about adding Waifu of the season section but it's kinda pointless anyway. For this season it's undoubtly Akane Kurokawa, Rin Nanakura, and Yuki Suou. Maybe Mikarin as well, she's cute.
 
 <center>
-![](https://cinorin.github.io/cinoriblog/2024summer1/5.png)
-<em>Akane Kurokawa from Oshi no Ko S2 (mana pacar Akane gw ya allah)</em></center>
+![](https://cinorin.github.io/cinoriblog/2024summer1/4.png)
+<em>"What are you, a menhera girlfriend!?!?" - Shikanoko Noko Koshitantan eps 2</em></center>
