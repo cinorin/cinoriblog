@@ -16,15 +16,25 @@ const PostPreview = (props: PostMetadata) => {
       </Link>
 
       {props.thumbnail !== undefined && (
-        <div className="h-[400px] w-full relative">
+       //!! Old one
+       // <div className="h-[400px] w-full relative">
+        //   <Image
+        //     alt="thumbnail_image"
+        //     src={"https://cinorin.github.io/cinoriblog/" + props.thumbnail}
+        //     // width={1080}
+        //     // height={900}
+        //     className=""
+        //     layout="fill"
+        //     objectFit="cover"
+        //   />
+        // </div>
+        <div className="">
           <Image
             alt="thumbnail_image"
             src={"https://cinorin.github.io/cinoriblog/" + props.thumbnail}
-            // width={1080}
-            // height={900}
+            width={1080}
+            height={900}
             className=""
-            layout="fill"
-            objectFit="cover"
           />
         </div>
       )}
