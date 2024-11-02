@@ -1,7 +1,7 @@
 ---
 title: "三角形の壊し方 undirected ramble"
 subtitle: "i like angst yuri"
-thumbnail: "/sanka/cover.jng"
+thumbnail: "/sanka/cover.jpg"
 date: "2024-06-20"
 tags: ["yuri", "manga"]
 draft: false
