@@ -1,7 +1,7 @@
 ---
 title: "三角形の壊し方 undirected ramble"
 subtitle: "i like angst yuri"
-thumbnail: "/sanka/00.png"
+thumbnail: "/sanka/cover.jng"
 date: "2024-06-20"
 tags: ["yuri", "manga"]
 draft: false
@@ -11,6 +11,8 @@ draft: false
 ![](https://cinorin.github.io/cinoriblog/sanka/00.png)
 Title :  三角形の壊し方<br/>
 Story & Art : カボちゃ <br/>
+
+Cover image : [link](https://x.com/kabo_cha0726/status/1827742166304886796/photo/1)
 </center>
 
 I've been taking interest to Kabocha-sensei art on [xwitter](https://x.com/kabo_cha0726) for a long time, and one day I saw a manga posted by him on his twitter, which looks interesting. Apparently it's their second manga, and I feel like I must take a look on it.
